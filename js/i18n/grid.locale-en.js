@@ -22,7 +22,9 @@ $.extend($.jgrid,{
 		odata : ['equal', 'not equal', 'less', 'less or equal','greater','greater or equal', 'begins with','does not begin with','is in','is not in','ends with','does not end with','contains','does not contain'],
 		groupOps: [	{ op: "AND", text: "all" },	{ op: "OR",  text: "any" }	],
 		matchText: " match",
-		rulesText: " rules"
+		rulesText: " rules",
+        tmpLabel: " template",
+        tmpDefault: " Default"
 	},
 	edit : {
 		addCaption: "Add Record",
